@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>상품 주문 페이지</title>
+  <link rel="stylesheet" type="text/css" href="PurchasePage.css">
+</head>
+<body>
+    <h1>판매하는 상품</h1>
+    <p>원하는 상품을 선택하고 주문하세요.</p>
+    <p></p>
+
+    <form id="orderForm">
+        <div class="product">
+            <img src="\Practice\images\Airpods.png" alt="Airpods">
+            <label>
+                <input type="checkbox" name="item" value="269000"> Airpods (269,000원)
+            </label>
+        </div>
+        <div class="product">
+            <img src="\Practice\images\AppleWatch.png" alt="AppleWatch">
+            <label>
+                <input type="checkbox" name="item" value="639000"> AppleWatch (639,000원)
+            </label>
+        </div>
+        <div class="product">
+            <img src="\Practice\images\Iphone.png" alt="iphone">
+            <label>
+                <input type="checkbox" name="item" value="1550000"> iphone (1,550,000원)
+            </label>
+        </div>
+        <div class="product">
+          <img src="\Practice\images\MacBook.png" alt="MacBook">
+          <label>
+              <input type="checkbox" name="item" value="1890000"> MacBook (1,890,000원)
+          </label>
+      </div>
+      <div class="product">
+        <img src="\Practice\images\Imac.png" alt="imac">
+        <label>
+            <input type="checkbox" name="item" value="1790000"> imac (1,790,000원)
+        </label>
+    </div>
+        <button type="button" onclick="calculateTotal()">주문하기</button>
+    </form>
+
+    <div id="orderResult"></div>
+
+    <script src="PurchasePage.js"></script>
+</body>
+</html>
