@@ -1,0 +1,17 @@
+/* 수정한 CSS 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+/*
+div {
+  background-color: blue;
+  padding: 1px;
+  margin-top: 5px; 
+}
+*/
+p {
+  font-size: 40px; /* 글자 크기를 20px로 수정 */
+  font-weight: bold; /* 굵게 만들기 */
+  margin: 5px 0;
+}
